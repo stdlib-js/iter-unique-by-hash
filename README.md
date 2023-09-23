@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterUniqueByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-unique-by-hash/tags). For example,
+
+```javascript
 import iterUniqueByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@v0.1.0-deno/mod.js';
 ```
 
@@ -176,7 +181,7 @@ bool = ( ctx.count > 0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
-import iterUniqueByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@v0.1.0-deno/mod.js';
+import iterUniqueByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@deno/mod.js';
 
 function mapFcn( v ) {
     return {
