@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-iterUniqueByHash = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@umd/browser.js' )
+iterUniqueByHash = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var iterUniqueByHash = require( 'path/to/vendor/umd/iter-unique-by-hash/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -203,7 +203,7 @@ bool = ( ctx.count > 0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unique-by-hash@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
